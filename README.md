@@ -35,13 +35,17 @@ Python (FastAPI)
 HTML5
 CSS3
 JavaScript (Vanilla)
+
 ⚙️ Backend
 Node.js + Express.js
 Python + FastAPI
+
 🗄️ Database
 SQLite
+
 🛠️ Tools
 Postman
+
 🔗 API Endpoints
 Method	Endpoint	Description
 GET	/api/students	Retrieve all students
@@ -50,6 +54,7 @@ POST	/api/students	Create a new student
 PUT	/api/students/:id	Replace entire record
 PATCH	/api/students/:id	Partially update record
 DELETE	/api/students/:id	Delete a student
+
 ⚙️ System Architecture
 Frontend (UI)
      ↓
@@ -60,6 +65,7 @@ Backend (Express.js / FastAPI)
 SQLite Database
      ↓
 JSON Response → UI Update
+
 🔄 Data Flow (How it Works)
 User interacts with the frontend UI
 Frontend sends HTTP request (GET/POST/PUT/PATCH/DELETE)
@@ -67,6 +73,7 @@ Backend processes request and applies business logic
 Database performs required operation
 Backend returns JSON response
 Frontend updates UI dynamically
+
 🧠 Learning Outcomes
 Strong grasp of REST API principles
 Hands-on experience with HTTP methods & status codes
@@ -74,6 +81,7 @@ Understanding of client-server communication
 Backend development using two different ecosystems
 Database operations using SQL (SQLite)
 API testing and debugging using Postman
+
 🔍 Why Two Backends?
 
 This project explores how the same API design can be implemented using different technologies:
@@ -83,19 +91,23 @@ Language	JavaScript	Python
 Performance	Fast	High (async support)
 Documentation	Manual	Automatic (Swagger UI)
 Validation	Basic	Strong (Pydantic)
+
 ▶️ Getting Started
 📥 Clone Repository
 git clone <your-repo-link>
 cd RESTAPI
+
 ⚙️ Run Backend
 Option A: Express.js
 cd js-backend
 npm install
 npm start
+
 Option B: FastAPI
 cd python-backend
 pip install -r requirements.txt
 python main.py
+
 🌐 Run Frontend
 
 Open:
