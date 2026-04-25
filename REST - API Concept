@@ -66,3 +66,7 @@ Client sends request
 Server processes logic
 Database performs operation
 Server returns JSON response
+
+🎯 Key Takeaway
+
+REST APIs enable structured communication between frontend and backend systems.
