@@ -1,0 +1,57 @@
+# 🧪 Postman Guide
+
+---
+
+## 📌 What is Postman?
+
+Postman is a tool used to test APIs without a frontend.
+
+---
+
+## 🚀 Base URLs
+
+Express:
+http://localhost:3000
+
+FastAPI:
+http://localhost:8000
+
+---
+
+## 🔹 Test Cases
+
+### ✅ Get All Students
+
+- Method: GET  
+- Endpoint: /api/students  
+
+---
+
+### ➕ Create Student
+
+- Method: POST  
+- Endpoint: /api/students  
+
+Body:
+```json
+{
+  "name": "Rahul",
+  "email": "rahul@gmail.com",
+  "course": "BCA",
+  "age": 20
+}
+✏️ Update Student (PUT)
+Method: PUT
+Endpoint: /api/students/1
+🔄 Partial Update (PATCH)
+Method: PATCH
+Endpoint: /api/students/1
+
+Body:
+
+{
+  "age": 22
+}
+❌ Delete Student
+Method: DELETE
+Endpoint: /api/students/1
