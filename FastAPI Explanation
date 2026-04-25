@@ -1,0 +1,55 @@
+# 🔵 FastAPI Backend Explained
+
+---
+
+## 📌 Overview
+
+This backend is built using Python and FastAPI.
+
+---
+
+## ⚙️ Features
+
+- High performance  
+- Automatic validation  
+- Built-in documentation  
+
+---
+
+## 📄 Swagger Docs
+
+Available at:
+http://localhost:8000/docs
+
+---
+
+## 🗄️ Database
+
+Uses SQLite with Python sqlite3 module.
+
+---
+
+## 🔗 Routes
+
+### GET /api/students
+Get all students
+
+### POST /api/students
+Add new student
+
+### DELETE /api/students/{id}
+Delete student
+
+---
+
+## 🧠 Key Concepts
+
+- Decorators define routes  
+- JSON responses are automatic  
+- Clean and structured API design  
+
+---
+
+## 🎯 Summary
+
+FastAPI simplifies API development with speed and built-in features.
