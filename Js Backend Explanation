@@ -1,0 +1,58 @@
+# 🟢 Express.js Backend Explained
+
+---
+
+## 📌 Overview
+
+This backend is built using Node.js and Express.js.
+
+---
+
+## ⚙️ Core Components
+
+### Express Server
+Handles HTTP requests and routes.
+
+### Middleware
+- express.json() → Parses JSON requests  
+- cors() → Enables cross-origin requests  
+
+---
+
+## 🗄️ Database
+
+Uses SQLite with better-sqlite3.
+
+---
+
+## 🔗 Routes
+
+### GET /api/students
+Fetch all students
+
+### POST /api/students
+Add a new student
+
+### PUT /api/students/:id
+Update full record
+
+### PATCH /api/students/:id
+Update partial data
+
+### DELETE /api/students/:id
+Delete student
+
+---
+
+## 🧠 Key Concepts
+
+- req.body → Data from frontend  
+- req.params → URL parameters  
+- .all() → Multiple rows  
+- .get() → Single row  
+
+---
+
+## 🎯 Summary
+
+This backend connects frontend requests with database operations using REST APIs.
