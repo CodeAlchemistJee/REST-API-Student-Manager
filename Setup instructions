@@ -1,0 +1,67 @@
+# ⚙️ Setup & Installation Guide
+
+This guide will help you set up and run the project locally.
+
+---
+
+## 📌 Prerequisites
+
+Make sure you have:
+
+- Node.js (v14 or above)
+- Python (v3.8 or above)
+- pip (Python package manager)
+- A modern browser (Chrome recommended)
+- VS Code (optional)
+
+---
+
+## 📥 1. Clone the Repository
+
+```bash
+git clone <your-repo-link>
+cd RESTAPI
+
+🟢 2. Run JavaScript Backend (Express.js)
+cd js-backend
+npm install
+npm start
+
+Server will run on:
+http://localhost:3000
+
+🔵 3. Run Python Backend (FastAPI)
+cd python-backend
+pip install -r requirements.txt
+python main.py
+
+Server will run on:
+http://localhost:8000
+
+Swagger Docs:
+http://localhost:8000/docs
+
+🌐 4. Run Frontend
+
+Open this file in your browser:
+
+frontend/index.html
+
+Tip: Use Live Server (VS Code extension) for better experience.
+
+🔄 5. Switching Backends
+
+You can switch between:
+
+Express (port 3000)
+FastAPI (port 8000)
+
+
+✅ 6. Verify Setup
+
+Try:
+Adding a student
+Updating a record
+Deleting a student
+
+If everything works, setup is complete.
