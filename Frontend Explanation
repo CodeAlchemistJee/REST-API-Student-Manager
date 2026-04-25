@@ -1,0 +1,42 @@
+# 🌐 Frontend Explained
+
+---
+
+## 📌 Overview
+
+The frontend is built using HTML, CSS, and JavaScript.
+
+---
+
+## ⚙️ Responsibilities
+
+- Take user input  
+- Send API requests  
+- Display data  
+
+---
+
+## 🔗 Fetch API
+
+Used to communicate with backend:
+
+```js
+fetch("/api/students")
+  .then(res => res.json())
+  .then(data => console.log(data));
+
+🔄 Flow
+User clicks button
+Request is sent
+Backend processes
+Response received
+UI updates
+
+🧠 Key Concepts
+Fetch API
+Promises
+JSON
+DOM manipulation
+
+🎯 Summary
+Frontend acts as a bridge between user and backend APIs.
