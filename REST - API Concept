@@ -1,0 +1,68 @@
+# 📘 REST API Concepts
+
+---
+
+## 🌐 What is a REST API?
+
+REST (Representational State Transfer) is an architectural style used for communication between systems over HTTP.
+
+It allows a frontend (client) to interact with a backend (server).
+
+---
+
+## 🏗️ Client-Server Architecture
+
+- Client → Sends request  
+- Server → Processes request  
+- Server → Sends response  
+
+Example:  
+User clicks "Add Student" → request sent → backend stores data → response returned.
+
+---
+
+## 🔧 HTTP Methods
+
+| Method | Purpose | Example |
+|--------|--------|--------|
+| GET | Retrieve data | Get all students |
+| POST | Create data | Add student |
+| PUT | Replace data | Update full record |
+| PATCH | Partial update | Update age only |
+| DELETE | Remove data | Delete student |
+
+---
+
+## 🔁 PUT vs PATCH
+
+| PUT | PATCH |
+|-----|------|
+| Full update | Partial update |
+| Replaces entire object | Updates specific fields |
+
+---
+
+## 📦 JSON Format
+
+Used to send/receive data:
+
+```json
+{
+  "name": "Rahul",
+  "email": "rahul@gmail.com"
+}
+
+📡 HTTP Status Codes
+Code	Meaning
+200	Success
+201	Created
+400	Bad Request
+404	Not Found
+500	Server Error
+
+
+🔄 REST Flow
+Client sends request
+Server processes logic
+Database performs operation
+Server returns JSON response
