@@ -152,7 +152,7 @@ RESTAPI/
 ### Step 1: Clone the Repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/RESTAPI.git
+git clone https://github.com/CodeAlchemistJEE/RESTAPI.git
 cd RESTAPI
 ```
 
